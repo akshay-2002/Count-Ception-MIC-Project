@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-def save_samples(output, target, idx):
+def save_plot(output, target, idx):
     output_arr = output[0].cpu().numpy()
     target_arr = target[0].cpu().numpy()
 
@@ -14,6 +14,6 @@ def save_samples(output, target, idx):
     ax1.set_title("Output Count Map")
     ax1.imshow(np.concatenate(output_arr, axis=1))
     plt.tight_layout()
-    plt.savefig('test_outputs/sample_{0}'.format(idx))
+    plt.savefig('test_outputs/output_comparision_{0}'.format(idx))
 
 
