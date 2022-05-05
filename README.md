@@ -1,3 +1,5 @@
+Paper implemented:https://arxiv.org/pdf/1703.08710.pdf
+
 ## Training
 
 To train a model, run the following command: 
