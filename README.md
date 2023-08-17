@@ -1,3 +1,5 @@
+Course Project for MIC (CS 736)
+
 Paper implemented:https://arxiv.org/pdf/1703.08710.pdf
 
 ## Training
